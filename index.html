@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Currency Converter</h1>
+        <div class="currency-container">
+            <select id="currency-first">
+                <option value="AUD">AUD</option>
+                <option value="USD" selected>USD</option>
+                <option value="NGN">NGN</option>
+                <option value="EUR">EUR</option>
+                <option value="CAD">CAD</option>
+                <option value="NZD">NZD</option>
+
+
+            </select>
+            <input type="number" id="worth-first" value="1"  min="0">
+
+        </div>
+
+            <div class="currency-container">
+            <select id="currency-second">
+                <option value="AUD">AUD</option>
+                <option value="USD" >USD</option>
+                <option value="NGN" selected>NGN</option>
+                <option value="EUR">EUR</option>
+                <option value="CAD">CAD</option>
+                <option value="NZD">NZD</option>
+
+
+            </select>
+            <input type="number" id="worth-second"  disabled>
+            </div>
+            <p class="exchange-rate" id="exchange-rate">1 USD = 600.00 NGN</p>
+
+    </main>
+<script src="index.js"></script>
+    
+</body>
+</html>
